@@ -1,0 +1,76 @@
+.panel {
+    background-color: rgb(61, 60, 60);
+    padding: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+
+.thankYouPanel {
+    background-color: rgb(61, 60, 60);
+    padding: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.selected {
+    color: orange;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.star {
+    background-color: grey;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(167, 162, 162);
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating {
+    background-color: rgb(62, 62, 63);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.rating:hover {
+    background-color: gray;
+}
+
+.rating:focus {
+    background-color: orange;
+}
+
+.submit {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.submit:hover {
+    color: orange;
+    background-color: white;
+}
